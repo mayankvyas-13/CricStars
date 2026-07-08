@@ -84,5 +84,3 @@ npm start
 ## Author
 
 **Mayank Vyas**
-
-B.Tech CSE (AI & ML)
