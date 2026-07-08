@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 10px 20px;
+  color: white;
+  border-bottom: 4px solid #444;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Bungee", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: white;  /* White text */
+  background: none; /* Remove white background */
+  padding: 0; /* Remove padding */
+  border-radius: 0; /* Remove rounded edges */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+/* Remove unwanted borders/margins */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  border: none;
+}
+

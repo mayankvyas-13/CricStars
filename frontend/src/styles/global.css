@@ -1,0 +1,6 @@
+.logo-container {
+    background-color: white;  /* Ensure white background */
+    padding: 5px 10px;        /* Add padding for spacing */
+    border-radius: 5px;       /* Optional: for smooth corners */
+    display: inline-block;     /* Keep it wrapped around text */
+}
